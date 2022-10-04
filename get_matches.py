@@ -1,5 +1,6 @@
 import requests, json, time, os
 import pandas as pd
+os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
 OPEN_DOTA_DELAY = 1.2
 
@@ -29,9 +30,10 @@ def get_match_by_id(match_id, force = False):
     path = os.path.join('data', '{}_data.json'.format(match_id))
     # check if it already exists
     if force or not os.path.isfile(path):
+        print('GET:', match_id)
         download_match_by_id(match_id)
     with open(path, 'r') as f:
-        print('read:', path)
+        # print('read:', path)
         data = json.load(f)
     return data
 

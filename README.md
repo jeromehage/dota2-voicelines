@@ -6,6 +6,8 @@ Statistics for TI11 talent voicelines:
 - Winrate
 - Average usage
 - Max uses in a single game
+- Which stage of the game the lines are used
+- Winrate vs time used
 
 How it works:
 1) download parsed matches from opendota

@@ -3,7 +3,14 @@ import pandas as pd
 import numpy as np
 from matplotlib import pyplot as plt
 
-data = pd.read_csv('results_ti13_n2676.csv', encoding = 'utf-16', sep = ';')
+ti = '14'
+files = os.listdir('results')
+files = [f for f in files if f'ti{ti}_n' in f]
+cnts = [int(f.split('_')[-1][1:-4]) for f in files]
+path = files[np.argmax(cnts)] # most samples
+n = len(os.listdir('data'))
+
+data = pd.read_csv(path, encoding = 'utf-16', sep = ';')
 data = data[['name', 'chatwheels', 'games', 'wins',
        'winrate', 'mean_uses', 'median_uses', 'max_uses', 'laning', 'midgame',
        'lategame', 'median_first_use_minutes', 'spammability']]
@@ -20,7 +27,7 @@ data['idx'] = counter
 data['idx'] = data['idx'].astype(str)
 
 data.sort_values(by = 'games', ascending = True, inplace = True)
-data = data[data['games'] >= 100]
+data = data[data['games'] >= 10]
 data['label'] = data['name'] + ' ' + data['idx'] + '\n' + data['chatwheels'].astype(str)
 
 fig, ax = plt.subplots(layout = 'constrained', figsize = (7, 8))
@@ -41,10 +48,16 @@ ax2.bar_label(rects, padding = 3)
 
 # Add some text for labels, title and custom x-axis tick labels, etc.
 ax.set_yticks(x + width, data['label'])
-ax.set_title('TI13 talent voiceline performance')
+ax.set_title(f'TI{ti} talent voiceline performance')
 
 li, lb = ax.get_legend_handles_labels()
 li2, lb2 = ax2.get_legend_handles_labels()
 ax.legend(li + li2, lb + lb2, loc = 'lower right', ncols = 2)
 
+# fix ax limits a bit too narrow
+xlim = ax.get_xlim()
+
 plt.show()
+
+fname = f'ti{ti}_talen_n{n}.png'
+fig.save(fname, ppi = 300, bbox_inches = 'tight')

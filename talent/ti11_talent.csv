@@ -1,0 +1,187 @@
+;account_id;name;real_name;sticker;chat_wheel_preview;voice_item;language
+0;58380135;Cap;Austin Walsh;24249;401001;24700;english
+1;20796460;Eosin;Steven Cheng;24250;401002;24701;english
+2;196628643;Ephey;Mira Riad;24251;401003;24702;english
+3;95145869;Jenkins;Andrew Jenkins;24252;401004;24703;english
+4;5448108;Fogged;Ioannis Loucas;24253;401005;24704;english
+5;37899842;johnxfire;John Nathan Fernandez;24254;401006;24705;english
+6;87264171;Lacoste;Dominik Stipić;24255;401007;24706;english
+7;110155287;lizZard;Admir Salkanović;24256;401008;24707;english
+8;193673646;Lyrical;Gabriel Cruz;24257;401009;24708;english
+9;87024653;MLPDotA;Mike Le Phoenix;24258;401010;24709;english
+10;89511038;ODPixel;Owen Davies;23573;401011;24710;english
+11;1482324;PTP;Patrik Björgell;24259;401012;24711;english
+12;256125365;Purge;Kevin Godec;24260;401013;24712;english
+13;9332911;Pyrion Flax;Ted Forsyth;24261;401014;24713;english
+14;97577101;Sheepsticked;Alexandra Roberts;24262;401015;24714;english
+15;37147003;Sheever;Jorien van der Heijden;24263;401000;24715;english
+16;68186278;SirActionSlacks;Jacob Kanner;24264;401016;24716;english
+17;2918679;skrff;Rikard Holm Melin;24265;401183;24717;english
+18;690740;SUNSfan;Shannon Scotten;24266;401179;24718;english
+19;47434686;SVG;Avery Silverman;24267;401017;24719;english
+20;4281729;syndereN;Troels Nielsen;24268;401018;24720;english
+21;270293472;TeaGuvnor;Robson Merritt;24269;401019;24721;english
+22;70090192;trent;Trent MacKenzie;24270;401020;24722;english
+23;2744346;Tsunami;Neal Khandheria;24271;401021;24723;english
+24;55300424;Weppas;Johan Westberg;24272;401180;24724;english
+25;104324194;Tokki;Helen Xu;24273;401122;24725;english
+26;78601976;Jin;Jin Ru;24274;401181;24726;english
+27;1013411;Break;Nick Caras;24440;401040;24784;english
+28;87177591;Fear;Clinton Loomis;24441;401041;24785;english
+29;54535035;KillerPigeon;Darren Elmy;24442;401042;24786;english
+30;41475731;Nomad;Jared Bajina;24443;401043;24787;english
+31;181866849;Moxxi;Michelle Song;24444;401178;24788;english
+32;68243195;Gareth Bateson;Gareth Bateson;24445;401044;24789;english
+33;665124;Danog;Matt Joyce;24446;401045;24790;english
+34;2237798;SeekNStrike;Richie Garcia;24447;401046;24791;english
+35;242846025;NatTea;Natalie Mahoney;24448;401047;24792;english
+36;136780564;Ares;Lachlan Williams;24449;401048;24793;english
+37;32995405;Wagamama;Niklas Högström;24450;401049;24794;english
+38;112035603;Snare;Sean Rihlamvu;24451;401050;24795;english
+39;47123324;Basskip;Cameron Scott;24452;401051;24796;english
+40;228457326;Fluke;Luke Pete;24636;401184;24797;english
+41;26231701;T-Panda;Rikumikko Kangasmäki;24454;401053;24798;english
+42;24014028;Poptart;David Mejia;24455;401054;24799;english
+43;6922000;pieliedie;Johan Åström;24456;401055;24800;english
+44;169025618;Khezu;Maurice Gutmann;24457;401056;24801;english
+45;76995948;Godz;David Parker;24637;401177;24802;english
+46;100250283;4ce;Nikita Kotkov;24297;401099;24744;russian
+47;80542879;Adekvat;Rustam Mavliutov;24298;401100;24745;russian
+48;107644273;ARS-ART;Revin Sergey;24299;401101;24746;russian
+49;87748419;b2ru;Yana Khymchenko;24281;401189;24748;russian
+50;48739453;Bafik;Oleksii Bafadarov;24301;401102;24749;russian
+51;155564702;Belony`;Yehor Dovhyi;24302;401103;24750;russian
+52;26751577;CrystalMay;Dmitry Korchevinin;24303;401104;24751;russian
+53;115407110;Droog;Dmytro Chumachenko;24304;401105;24752;russian
+54;166312089;EiriteL;Daria Morozova;24305;401106;24753;russian
+55;89137399;Goblak;Artur Kostenko;24311;401107;24754;russian
+56;91287278;GodHunt;Victor Volkov;24312;401108;24755;russian
+57;77415789;Inmateoo;Filinov Dmitrii;24313;401109;24756;russian
+58;104433897;JAM;Korotkov Alexandr;24314;401110;24757;russian
+59;36547811;JotM;Egor Surkov;24315;401111;24758;russian
+60;83038675;Lex;Alexey Filippov;24088;401187;24760;russian
+61;113568927;STORM;Oleksii Tumanov;24320;401116;24763;russian
+62;89625472;XBOCT;Dashkevych Oleksandr;24321;401117;24764;russian
+63;47701962;Zloba;Dmitry Irinchuk;24322;401118;24765;russian
+64;31375795;LanigirO;Alexandr Potapov;24458;401119;24803;russian
+65;34322358;sQreen;Khaled El-Khabbash;24459;401120;24804;russian
+66;55666790;Zais;Nikita Zakharov;24460;401121;24805;russian
+67;86930446;Ahilles;Timur Kulmukhambetov;24089;401188;24806;russian
+68;87075584;DD;Vladimir Vylegzhanin;24462;401123;24807;russian
+69;93704000;Mila;Mila Alieva;24463;401124;24808;russian
+70;95216436;Tom Amot;Mikhail Kutuzov;24464;401125;24809;russian
+71;115396647;gexsun;Vladimir Petryaev;24465;401126;24810;russian
+72;350747327;Sheyl;Nikita Demeshov;24466;401127;24811;russian
+73;143544063;CyberStepan;Koshelev Stepan;24467;401128;24812;russian
+74;363871826;PETUSHARA;Uladzislau Kazlouski;24468;401129;24813;russian
+75;87201671;blowyourbrain;Vladislav Morozyuk;24470;401130;24814;russian
+76;96196828;633;Stanislav Glushan;24471;401131;24815;russian
+77;113372833;UnderShock;Dmitry Bolshakov;24472;401132;24816;russian
+78;123645735;etokoval;Dmitriy Koval`;24474;401134;24817;russian
+79;87283048;Maelstorm;Vladimir Kuzminov;24475;401135;24818;russian
+80;196482746;Ainkrad;Aleksey Diveevskiy;24476;401136;24819;russian
+81;118074923;1ceN1ce;Daniil Khalikov;24477;401137;24820;russian
+82;57578110;Vladislav Ivachshenko;Vladislav Ivachshenko;24478;401138;24821;russian
+83;493502022;Neverland;Dmitry Durdin;24479;401139;24822;russian
+84;77783966;stubborn;Marakulin Artem;24480;401140;24823;russian
+85;427403986;VladYaR;Vlad Yarovikov;24481;401141;24824;russian
+86;375405213;Wayns;Vladimir Ivashkovets;24482;401142;24825;russian
+87;100028335;ArsZeeqq;Usov Arsenii;24484;401143;24826;russian
+88;123787524;Shachlo;Abramovskikh Maksim;24485;401144;24827;russian
+89;117833458;sojj;Valeriy Lyubimchenko;24486;401145;24828;russian
+90;93552791;Nofear;Aleksandr Churochkin;24885;401190;24886;russian
+91;174422691;78;杜俊楠;24232;401068;24853;chinese
+92;139186922;Ams;Chen Juan;24233;401069;24283;chinese
+93;89149892;bbc;Hongsheng Zhang（张宏圣）;24234;401070;24284;chinese
+94;188850333;Dove;Tiange Zhang;24235;401071;24285;chinese
+95;123697330;FreeAgain;郝鹏 HAO PENG;24236;401072;24307;chinese
+96;111189717;Inflame;YongZheng He;24237;401073;24308;chinese
+97;103386764;LavenderAA;李启明;24238;401074;24309;chinese
+98;136356404;M4;Yabin Sun（孙亚斌）;24239;401075;24310;chinese
+99;89045027;Ma_Shall;Ma Shaowei;24240;401076;24336;chinese
+100;286580656;Helinli;何林立 linlihe;24241;401077;24337;chinese
+101;149486894;Sccc丶;Song Chun;24243;401113;24338;chinese
+102;86750861;Sdn~;Danni Shi;24244;401078;24339;chinese
+103;92607797;Yuno;WANG JING;24245;401079;24340;chinese
+104;113705693;ZSMJ;Jian Gong (龚建);24246;401182;24393;chinese
+105;125210835;璨璨C.C.;cancan Shi;24247;401080;24394;chinese
+106;96877519;风追忆 (wind);王智博;24248;401081;24395;chinese
+107;88508515;Hao;Zhihao Chen;24500;401146;24842;chinese
+108;89157606;Mu;Pan Zhang;24501;401147;24843;chinese
+109;89371588;谢彬DD;Bin Xie;24502;401148;24844;chinese
+110;90137663;Zhou;Yao Chen;24503;401149;24845;chinese
+111;90881881;ZippO宝哥;Xiong Zhou;24504;401150;24846;chinese
+112;90892194;LongDD;Xiang Huang;24505;401151;24847;chinese
+113;100883708;SanSheng;Zhaohui Wang;24242;401152;24848;chinese
+114;101678979;小刘666;Yongzhi Liu;24506;401153;24849;chinese
+115;109081055;820;Yitian Zou;24507;401154;24850;chinese
+116;140460818;YammerS;Hong Wei Mi;24508;401155;24851;chinese
+117;140888552;Luna;Miqi Wang;24509;401156;24852;chinese
+118;174422691;78;Du Junnan;24232;401068;24853;chinese
+119;136168803;杰出哥;Yinxin Yang;24510;401157;24854;chinese
+120;90892734;BurNIng;Zhilei Xu;24511;401158;24855;chinese
+121;182379128;Ero;Yao Li;24512;401159;24856;chinese
+122;90045009;YYF;Cen Jiang;24514;401161;24858;chinese
+123;136177710;圣子华炼;Liushuai Zhong;24515;401162;24859;chinese
+124;86034556;DC;Can Dong;24516;401163;24860;chinese
+125;34438121;Aedrons;João Hugo Carvalho;24275;401082;24727;portuguese
+126;162794248;Arjarath;Igor Rodrigues;24276;401083;24728;portuguese
+127;101627486;AYALA;Matheus Ayala Batista;24277;401084;24729;portuguese
+128;86782924;dirmaoURSO;Diego Rodrigues;24278;401085;24730;portuguese
+129;170730181;Flerya;Daiani Beregula Araujo;24279;401086;24731;portuguese
+130;44603256;guipepe;Guilherme Tedesco;24280;401087;24732;portuguese
+131;1217329080;Haon;Rômulo Capazzo;24286;401088;24733;portuguese
+132;128115676;Kaxanga;Pablo Oliveira Franco Menin;24287;401089;24734;portuguese
+133;103578570;Lil_kin6;Marcio Rodrigues;24288;401090;24735;portuguese
+134;135653527;Melo;Eduardo Melo;24290;401092;24737;portuguese
+135;89981994;PDS;Gui Pullin;24291;401093;24738;portuguese
+136;97072681;Rayuur;Gabriel Pinheiro de Morais;24292;401094;24739;portuguese
+137;1014985549;Refresh;Gédison Júnior;24293;401095;24740;portuguese
+138;110605738;SHERLOCK;Alisson Maximo Dobosz;24294;401096;24741;portuguese
+139;179308177;Tay;Taynara Sousa;24295;401097;24742;portuguese
+140;100028469;Warss;Renan Moura da Costa;24296;401098;24743;portuguese
+141;357110272;Patty;Patrícia Cristina Alves Souza;24517;401164;24861;portuguese
+142;113660693;Balones;Felipe Rodrigues;24518;401165;24862;portuguese
+143;101920249;Luhl;Luiza von Glehn;24519;401166;24863;portuguese
+144;164269110;Puba;Fernando Emmanuell Soares de Oliveira;24520;401167;24864;portuguese
+145;182188150;Mun;Mauricio Mendonca;24521;401168;24865;portuguese
+146;108142709;Jasam;José Victor Almeida;24522;401169;24866;portuguese
+147;103263722;Bego;Filipe Behrends;24523;401170;24867;portuguese
+148;363855410;PoochPop_TV;Dionathan do Amaral Leal;24524;401171;24868;portuguese
+149;899017898;Larinsana;Larissa Santana;24525;401172;24869;portuguese
+150;122651724;Midnight;Karine Puchalski;24526;401173;24870;portuguese
+151;201687094;PeterPPA;Pedro Paulo;24527;401174;24871;portuguese
+152;101062921;Arms;Danilo Silva;24528;401175;24872;portuguese
+153;110764123;Lumai;Rayssa Santos;24626;401176;24873;portuguese
+154;81306398;KJ;Matheus Jungles;24888;401191;24889;portuguese
+155;49036093;Avo+;Álvaro Sánchez Velasco;24323;401022;24766;spanish
+156;40936819;Blue;Marco Espinoza;24324;401023;24767;spanish
+157;112151448;Cutipo;Frank Williams Galan Cutipa;24325;401024;24768;spanish
+158;59690707;Er-Kratos;Dimas Romero;24326;401025;24769;spanish
+159;74378317;Flapjack;Julian Carbajal Esnaider;24327;401026;24770;spanish
+160;116326606;Giulio;Julio Núñez Murillo;24328;401027;24771;spanish
+161;101054160;Imperius;Luis Cuadros;24329;401028;24772;spanish
+162;121604932;Maverick;Aarón Galvez;24330;401029;24773;spanish
+163;125455301;MiHawk;Leonardo Astete;24331;401030;24774;spanish
+164;104196230;Mr.Choco;Rikardo Mendoza Mattos;24332;401031;24775;spanish
+165;88756322;Ndree;Andree Santillán;24333;401032;24776;spanish
+166;123156879;Necca;Luis Gómez;24334;401033;24777;spanish
+167;1222248677;Nela;Marianela Lizeth Alva Reyna;24335;401034;24778;spanish
+168;198163645;Nois;Jeancarlo Hernan Gamarra Antonio;24341;401035;24779;spanish
+169;35445648;Phillip Chu Joy;Phillip Chu Joy;24342;401036;24780;spanish
+170;95804890;RoD;Alberto Polo;24343;401037;24781;spanish
+171;123127736;Tainim;María García;24344;401038;24782;spanish
+172;314468507;TaO-;Darsee Egoavil Egoavil;24345;401039;24783;spanish
+173;22793772;Chilling;Leunam Chávez;24487;401057;24829;spanish
+174;86753880;Pawpaw;Paulo Tuya;24488;401185;24830;spanish
+175;112823881;DonCookie;Oscar Idiaquez Martinez;24489;401058;24831;spanish
+176;123044675;Lucky;Kevin Nahyr Muñoz Carbajal;24490;401059;24832;spanish
+177;128947109;Tio Inka;Paul De la Cruz;24491;401060;24833;spanish
+178;1112008831;DoRaYaKi;Jhonatan Lopez Q;24492;401061;24834;spanish
+179;344853869;NoEscape;Carlos Enrique Chávez Ruiz;24493;401062;24835;spanish
+180;156331087;D1smar;Jose Dismar Carhuajulca;24494;401063;24836;spanish
+181;302568414;RedMonster;Jhon Albert Mamani;24495;401064;24837;spanish
+182;49809477;Karmilion;MFrancisco Gastelú;24496;401065;24838;spanish
+183;322364182;Vadare;Cristhian Andrade;24497;401066;24839;spanish
+184;207916561;Cara;Alejandro Guzman Mendoza;24498;401067;24840;spanish
+185;160782997;Majito;Diego Enrique Cruces Fernández;24499;401186;24841;spanish

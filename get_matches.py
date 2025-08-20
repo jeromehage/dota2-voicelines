@@ -30,16 +30,24 @@ def get_match_by_id(match_id, force = False):
     path = os.path.join('data', '{}_data.json'.format(match_id))
     # check if it already exists
     if force or not os.path.isfile(path):
-        print('GET:', match_id)
+        print('GET:', match_id, end = ' ')
         download_match_by_id(match_id)
-    with open(path, 'r') as f:
-        # print('read:', path)
-        data = json.load(f)
-    return data
+    else:
+        print('READ:', match_id, end = ' ')
+    # read back after download
+    if not os.path.isfile(path):
+        print('FAIL')
+        return {}
+    else:
+        print('OK')
+        with open(path, 'r') as f:
+            # print('read:', path)
+            data = json.load(f)
+        return data
 
 ## get list of parsed matches
-match_id_min = 7909780355 # d2protracker game 8 PM aug 23
-match_id_max = 9000000001
+match_id_min = 8424549400 # random game 8 PM aug 20 2025
+match_id_max = 9900000001
 
 match_id = match_id_max
 while match_id >= match_id_min:
@@ -52,6 +60,10 @@ while match_id >= match_id_min:
             continue
         
         data = get_match_by_id(m)
+
+        # empty data
+        if len(data) == 0:
+            continue
 
         # extract chat data
         # ex: 6786771319 no chat

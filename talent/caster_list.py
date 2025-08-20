@@ -2,7 +2,7 @@ import os, json
 import pandas as pd
 
 files = [
-    'ti13_compendium_caster_list.txt',
+    'ti14_compendium_caster_list.txt',
     ]
 
 def txt_to_json(file, depth = 10):

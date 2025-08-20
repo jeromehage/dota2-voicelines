@@ -2,7 +2,7 @@ import requests, json, time, os
 import pandas as pd
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
-OPEN_DOTA_DELAY = 1.2
+OPEN_DOTA_DELAY = 2.1
 
 ## opendota
 # download match data from open dota
@@ -38,15 +38,19 @@ def get_match_by_id(match_id, force = False):
     return data
 
 ## get list of parsed matches
-match_id_max = 6900000000
-match_id_min = 6785932460 # annoying necro spamming slacks chatwheel yesterday
-match_id_min = 6785000000
+match_id_min = 7909780355 # d2protracker game 8 PM aug 23
+match_id_max = 9000000001
 
 match_id = match_id_max
 while match_id >= match_id_min:
     matches = get_parsed_matches(less_than_match_id = match_id)
+    print(match_id)
 
     for m in matches:
+
+        if m < match_id_min:
+            continue
+        
         data = get_match_by_id(m)
 
         # extract chat data
@@ -55,13 +59,8 @@ while match_id >= match_id_min:
             df = pd.DataFrame(data['chat'])
             df = df[df['type'] == 'chatwheel']
             if len(df): # ex: 6787090580 sometimes chat exists, but no chatwheel
-                df['win'] = df.apply(lambda x: data['radiant_win'] ^ int(x['player_slot'] // 128), axis = 1)
-                df.to_csv(os.path.join('chat', '{}_chat.csv'.format(m)))
+                if data['radiant_win'] is not None: # 6789712989 not scored?
+                    df['win'] = df.apply(lambda x: data['radiant_win'] ^ int(x['player_slot'] // 128), axis = 1)
+                    df.to_csv(os.path.join('chat', '{}_chat.csv'.format(m)))
 
     match_id = matches[-1]
-
-
-# gareth 401044
-# slacks 401016
-# killerpigeon 401042
-# ephey 401003

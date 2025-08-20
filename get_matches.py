@@ -2,7 +2,7 @@ import requests, json, time, os
 import pandas as pd
 os.chdir(os.path.dirname(os.path.realpath(__file__)))
 
-OPEN_DOTA_DELAY = 2.1
+OPEN_DOTA_DELAY = 5.1
 
 ## opendota
 # download match data from open dota

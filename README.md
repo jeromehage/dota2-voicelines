@@ -14,6 +14,9 @@ How it works:
 2) parse chat and group by voiceline id
 3) join to list of known voiceline ids
 
+## TI15 (n=1786)
+![Alt text](figs/ti15_talen_n1786.png?raw=true "TI 15")
+
 ## TI14 (n=9780)
 ![Alt text](figs/ti14_talen_n9780.png?raw=true "TI 14")
 

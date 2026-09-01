@@ -6,7 +6,7 @@ from matplotlib import pyplot as plt
 
 DIGITS = 3
 
-talent_path = os.path.join('talent', 'ti14_talent.csv')
+talent_path = os.path.join('talent', 'ti15_talent.csv')
 talent = pd.read_csv(talent_path, encoding = 'utf-8', sep = ';')
 chatwheelkey = 'chatwheels' # chat_wheel_preview chatwheels
 
@@ -85,5 +85,5 @@ results['spammability'] = results.apply(lambda x: 100000 * x['mean_uses'] / veri
 #results['match_ids'] = grouped['match_id'].agg(list)
 output = talent.merge(results, left_on = chatwheelkey, right_index = True)
 output = output.sort_values(by = 'games', ascending = False)
-ouput_path = os.path.join('results', 'results_ti14_n{}.csv'.format(len(chatdata)))
+ouput_path = os.path.join('results', 'results_ti15_n{}.csv'.format(len(chatdata)))
 output.to_csv(ouput_path, sep = ';', encoding = 'utf-16')

@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 from matplotlib import pyplot as plt
 
-ti = '14'
+ti = '15'
 files = os.listdir('results')
 files = [f for f in files if f'ti{ti}_n' in f]
 cnts = [int(f.split('_')[-1][1:-4]) for f in files]
@@ -38,15 +38,15 @@ ax2 = ax.twiny()
 x = np.arange(len(data))
 width = 0.4  # the width of the bars
 
-rects = ax.barh(x, data['max_uses'], width, label = 'Max uses', color = 'tab:red')
+rects = ax.barh(x, data['max_uses'], width, label = 'Max uses', color = 'gold')
 ax.bar_label(rects, padding = 3)
-rects = ax.barh(x, data['median_uses'], width, label = 'Average uses per player', color = 'tab:green')
+rects = ax.barh(x, data['median_uses'], width, label = 'Median uses', color = 'greenyellow')
 ax.bar_label(rects, padding = 3) #, color = 'white')
 ax.set_xlabel('Number of uses')
 
-rects = ax2.barh(x + width, data['games'], width, label = 'Games', color = 'tab:blue')
+rects = ax2.barh(x + width, data['games'], width, label = 'Games', color = 'dodgerblue')
 ax2.bar_label(rects, padding = 6)
-rects = ax2.barh(x + width, data['wins'], width, label = 'Wins', color = 'tab:orange')
+rects = ax2.barh(x + width, data['wins'], width, label = 'Wins', color = 'hotpink')
 ax2.bar_label(rects, padding = 3) #, color = 'white')
 ax2.set_xlabel('Number of matches')
 

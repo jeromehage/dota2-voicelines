@@ -46,11 +46,14 @@ def get_match_by_id(match_id, force = False):
         return data
 
 ## get list of parsed matches
-match_id_min = 8424549400 # random game 8 PM aug 20 2025
+match_id_min = 8922240921 # random game 2 PM July 31 2026
 match_id_max = 9900000001
 
 match_id = match_id_max
-while match_id >= match_id_min:
+counter = 0
+counter_max = 20
+
+while match_id >= match_id_min and counter < counter_max:
     matches = get_parsed_matches(less_than_match_id = match_id)
     print(match_id)
 
@@ -58,6 +61,9 @@ while match_id >= match_id_min:
 
         if m < match_id_min:
             continue
+
+        if counter >= counter_max:
+            break
         
         data = get_match_by_id(m)
 
@@ -74,5 +80,7 @@ while match_id >= match_id_min:
                 if data['radiant_win'] is not None: # 6789712989 not scored?
                     df['win'] = df.apply(lambda x: data['radiant_win'] ^ int(x['player_slot'] // 128), axis = 1)
                     df.to_csv(os.path.join('chat', '{}_chat.csv'.format(m)))
+
+                    counter += 1 # every day 20 games with chat is enough
 
     match_id = matches[-1]
